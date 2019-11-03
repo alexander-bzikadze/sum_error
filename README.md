@@ -1,4 +1,9 @@
-# Sum error
+Sum error
+==============
+
+[![Latest Version](https://img.shields.io/crates/v/quote.svg)](https://crates.io/crates/sum_error)
+[![Rust Documentation](https://img.shields.io/badge/api-rustdoc-blue.svg)](https://docs.rs/sum_error/)
+
 The library is ment to ease coding functions with try calls (or with the ? operator) and provides a derive macro to easily sum errors into a enum that automaticaly derives all the required traits including [std::error::Error](https://doc.rust-lang.org/std/error/trait.Error.html) and [std::convert::From](https://doc.rust-lang.org/std/convert/trait.From.html) from all the contained error types.
 
 In order to use this functionality create a enum containing unnamed variants with a single error type. 
