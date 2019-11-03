@@ -1,7 +1,7 @@
 //! Here we present a library for convinient summing already defined unique Errors.
 //! We provide a derive macros that can be applied towards a
-//! [enum](https://doc.rust-lang.org/rust-by-example/custom_types/enum.html) of unnamed
-//! variants each containing single type that implements
+//! [enum](https://doc.rust-lang.org/rust-by-example/custom_types/enum.html) of
+//! variants each containing single unnamed field of type that implements
 //! [Error](https://doc.rust-lang.org/std/error/trait.Error.html) trait.
 //!
 //! To provide more details, deriving from SumError will implement

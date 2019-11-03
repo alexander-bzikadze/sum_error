@@ -1,16 +1,19 @@
 [package]
 description = "Derive macros for fast summing of error types into error enum."
 name = "sum_error"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Alexander Bzikadze <alexander.bzikadze@gmail.com>"]
+homepage = "https://github.com/alexander-bzikadze/sum_error"
 repository = "https://github.com/alexander-bzikadze/sum_error"
 categories = ["rust-patterns"]
 keywords = ["sum", "enum", "error", "derive", "try"]
 edition = "2018"
 license = "MIT"
+readme = "README.md"
 
 [lib]
 proc-macro = true
+doc = true
 
 [dependencies]
 syn = "1.0.7"
